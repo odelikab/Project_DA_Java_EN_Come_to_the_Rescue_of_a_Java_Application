@@ -20,6 +20,7 @@ public class AnalyticsCounter {
 	public static void main(String args[]) {
 		
 		String inputfile = "Project02Eclipse/symptoms.txt";
+		String outfile = "result.out";
 
 //		Lecture fichier et extraction des symptoms
 		ISymptomReader readSymptom = new ReadSymptomDataFromFile(inputfile);
