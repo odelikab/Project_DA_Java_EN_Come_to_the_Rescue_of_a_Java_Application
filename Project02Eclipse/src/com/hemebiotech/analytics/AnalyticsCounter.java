@@ -26,7 +26,8 @@ public class AnalyticsCounter {
 		List<String> listeSymptoms = readSymptom.getSymptoms();
 		System.out.println(listeSymptoms);
 //		compteur symptoms
-		SymptomsCounter nombreSymptoms=new SymptomsCounter();		
+		SymptomsCounter nombreSymptoms=new SymptomsCounter();
+		nombreSymptoms.count(readSymptom);
 	}
 
 
