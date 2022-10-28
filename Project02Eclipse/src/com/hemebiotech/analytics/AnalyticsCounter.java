@@ -25,7 +25,8 @@ public class AnalyticsCounter {
 		ISymptomReader readSymptom = new ReadSymptomDataFromFile(inputfile);
 		List<String> listeSymptoms = readSymptom.getSymptoms();
 		System.out.println(listeSymptoms);
-
+//		compteur symptoms
+		SymptomsCounter nombreSymptoms=new SymptomsCounter();		
 	}
 
 
