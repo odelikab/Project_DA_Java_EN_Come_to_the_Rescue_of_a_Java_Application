@@ -11,7 +11,7 @@ public class SaveSymptomsOnFile implements ISymptomWriter {
 
 /**
  * Write results in a file
- * @param name of the file to save into
+ * @param name of the file to save results into
  */
 	public SaveSymptomsOnFile (String filename) {
 		this.filename = filename;
