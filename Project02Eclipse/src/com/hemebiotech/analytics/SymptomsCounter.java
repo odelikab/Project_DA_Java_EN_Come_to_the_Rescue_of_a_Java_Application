@@ -7,6 +7,7 @@ public class SymptomsCounter {
 
 	/**
 	 * counts symptoms from list
+	 * 
 	 * @param List of symptoms
 	 * @return map of symptoms and their quantities
 	 */

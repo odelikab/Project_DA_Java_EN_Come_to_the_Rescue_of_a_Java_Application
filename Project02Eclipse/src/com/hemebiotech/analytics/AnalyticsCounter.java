@@ -29,7 +29,7 @@ public class AnalyticsCounter {
 //		compteur symptoms
 		SymptomsCounter nombreSymptoms=new SymptomsCounter();
 		nombreSymptoms.count(readSymptom);
-		//affichage dans result.out
+//		affichage dans result.out
 		ISymptomWriter saveSymptoms = new SaveSymptomsOnFile(outfile);
 		saveSymptoms.displaySymptoms(nombreSymptoms.count(readSymptom));
 
